@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer('bge-large-zh')
+model = SentenceTransformer('E:\\work\\projects\\embeddings\\bge-large-zh')
 
 # Sentences are encoded by calling model.encode()
 queries = ["衢州川思人力资源开发有限公司招聘几名驾驶员？"]
